@@ -1,0 +1,30 @@
+.contentWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px solid goldenrod;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  max-width: 700px;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.buttonArea {
+  display: flex;
+  align-items: center;
+}
+
+.episodeInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  > p {
+    font-weight: 700;
+    margin: 10px 0;
+  }
+}

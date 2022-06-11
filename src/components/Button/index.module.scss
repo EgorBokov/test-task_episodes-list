@@ -1,0 +1,12 @@
+.buttonWrapper {
+  border: 1px solid royalblue;
+  border-radius: 6px;
+  padding: 6px 10px;
+  background-color: royalblue;
+  transition: 0.3s ease all;
+
+  &:hover {
+    background-color: white;
+    color: royalblue;
+  }
+}
